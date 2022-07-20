@@ -3,6 +3,10 @@ import App from './App.vue'
 import router from './router'
 import store from './store'
 import './styles/index.less'
+
+// 动态设置rem基准值
+import 'amfe-flexible'
+
 import { Button, Cell, CellGroup } from 'vant';
 
 Vue.use(Button);
